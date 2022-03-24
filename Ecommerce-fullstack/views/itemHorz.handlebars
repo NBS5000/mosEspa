@@ -1,0 +1,9 @@
+{{#each items as |item|}}
+<div class="itemBox">
+    <div class="circle">
+        <img class="itemImg" src="{{item.imgLink}}" alt="{{item.name}}">
+    </div>
+    <h4 class="itemH4">{{item.name}}</h4>
+    <P class="itemP">{{item.price}}</P>
+</div>
+{{/each}}

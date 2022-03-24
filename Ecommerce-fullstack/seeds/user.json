@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Luke Skywalker",
+      "email": "luke@theForce.com",
+      "password": "test"
+    },
+    {
+      "name": "Anakin Skywalker",
+      "email": "ani@chosen1.com",
+      "password": "test"
+    },
+    {
+      "name": "Yoda",
+      "email": "emailAddress@thisIs.com",
+      "password": "test"
+    },
+    {
+      "name": "Darth Vader",
+      "email": "darkLord@sith.com",
+      "password": "test"
+    },
+    {
+      "name": "Emperor Palpatine",
+      "email": "sheev@hateMace.com",
+      "password": "test"
+    },
+    {
+      "name": "Thrawn",
+      "email": "mithraw@chiss.com",
+      "password": "test"
+    },
+    {
+      "name": "IG-88",
+      "email": "assassin@cool.com",
+      "password": "test"
+    },
+    {
+      "name": "Dengar",
+      "email": "jumpmaster@5000.com",
+      "password": "test"
+    },
+    {
+      "name": "Bossk",
+      "email": "wookie@dinner.com",
+      "password": "test"
+    },
+    {
+      "name": "Mando",
+      "email": "theWay@creed.com",
+      "password": "test"
+    },
+    {
+      "name": "Grogu",
+      "email": "notA@baby.com",
+      "password": "test"
+    },
+    {
+      "name": "Finn",
+      "email": "fn2187@empire.com",
+      "password": "test"
+    },
+    {
+      "name": "Rey",
+      "email": "evilGrandad@junk.com",
+      "password": "test"
+    },
+    {
+      "name": "Obi Wan",
+      "email": "hello@there.com",
+      "password": "test"
+    }
+  ]

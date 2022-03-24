@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mos Espa</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/key.css">
+  <link rel="stylesheet" href="/css/cart.css">
+  <link rel="stylesheet" href="/css/var.css">
+  <link rel="stylesheet" href="/css/modal.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/media.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <script src="/js/news.js"></script>
+</head>
+
+
+<body>
+
+  <video id="background-video" autoplay loop muted >
+    <source src="/vids/mosEisley16.mp4" type="video/mp4">
+  </video>
+  <div id="mask"></div>
+
+    <header>
+      {{> top}}
+    </header>
+    <div id="mainContent">
+      <!-- Render the sub layout -->
+      {{{ body }}}
+
+    </div>    
+    <footer>
+      
+    </footer>
+
+
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+
+
+</body>
+
+</html>

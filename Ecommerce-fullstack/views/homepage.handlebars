@@ -1,0 +1,100 @@
+<div id="news" onload="news()">
+    <h3 id="newsH3">Latest News</h3>
+    <h4 id="newsH4">Planet Explodes!</h4>
+    <p id="newsP">The Empire has confirmed that a plant has exploded and blamed it on a faulty gas line. If you are convinced there is more to it than that, you're looking in Alderaan places.</p>
+</div>
+
+<div id="buySellBtn">
+    {{#if logged_in}}
+    <button class="itemBtn" type="submit" id="homeList">List Item</button>
+    {{/if}}
+    <!--button class="itemBtn" type="submit">View Items</button-->
+</div>
+
+
+<div id="displayList" class="scroll">
+
+{{#each items as |item|}}
+<div class="itemBox" data-value="{{item.id}}">
+    <div class="circle">
+        <img id="imgH_{{item.id}}" class="circle itemImg" src="{{item.image_link}}" alt="{{item.name}}">
+    </div>
+    <h4 id="nameH_{{item.id}}" class="itemH4">{{item.name}}</h4>
+    <p id="descH_{{item.id}}" class="hiddenDesc">{{item.description}}</p>
+    <p id="seller_{{item.id}}"  class="itemH4 hiddenDesc" data_id="{{item.user_id}}" data_value="{{user.name}}" data_email="{{user.email}}"></p>
+    <button class="itemViewBtn" data-value="{{item.id}}"></button>
+    <P class="itemP" id="priceH_{{item.id}}" ><span class="creditGreen itemCred"></span>{{item.price}}</P>
+</div>
+
+{{/each}}
+
+
+<!-- Item Display Modal -->
+<div id="myModal3" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div id = "container3">            
+            <form id = "form3">
+                <button id="addToCart" data-value="" class="itemBtn addCanx">Add to Cart</button><button id="canx3" class="itemBtn addCanx">Cancel</button>
+                <h2 id="name3" class="title"></h2>
+                <div id="viewImage">
+                    <img src="" id="image_link3"></img>
+                </div>
+                <div class="display-item">
+                    <p id="name3"></p>
+                    <p id="price3"></p>
+                    <hr/>
+                    <p id="description3"></p>
+                    <hr/>
+                    <p id="sellerP" data_value="">Seller: <br/>
+                    <span id="itemSeller"></span><br/>
+                    <span id="itemSellerEmail"></span></p>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- ....................... -->
+
+
+<div id="myModal4" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div id = "container4">
+            <form id = "form4">
+            <h2 class="title">Create your new Listing</h2>
+            <label for="name" class ="name listLabel">Item Name:</label>
+            <input type="text" id="name4" name="name" class="listInput" placeholder="Item Name" >
+            <label for="price" class="price listLabel">Item Price:</label>
+            <input type="text" id="price4" name="price" class="listInput" placeholder="Sell Price">
+            <label for="description" class ="description listLabel">Description:</label>
+            <input type="text" id="description4" name="description" class="listInput" placeholder="Description">
+            <label for="image_link" class ="image_link listLabel">Image URL:</label>
+            <input type="text" id="image_link4" name="image_link" class="listInput" placeholder="Image URL">
+            </form>
+        </div>
+        <br/><br/>
+        <button id="confirm4" class="itemBtn">Confirm</button><button id="canx4" class="itemBtn">Cancel</button>
+    </div>
+
+</div>
+<!-- ....................... -->
+
+
+
+
+
+</div> 
+
+
+<script src="/js/news.js"></script>
+<script src="/js/modalHome.js"></script>
+<script src="/js/imgExt.js"></script>
+<script>
+    var item = document.getElementById("displayList");
+    window.addEventListener("wheel", function (e) {
+    if (e.deltaY > 0) item.scrollLeft += 80;
+    else item.scrollLeft -= 80;
+    });
+</script>

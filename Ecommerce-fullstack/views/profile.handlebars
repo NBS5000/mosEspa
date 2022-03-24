@@ -1,0 +1,83 @@
+
+<div id="profileDetails">
+    <h5 id="profileName" class="profileTag">NAME:</h5>
+    <p id="profileP" class="profileOutput">{{userName}}</p>
+    <h5 id="profileEmail" class="profileTag">EMAIL:</h5>
+    <p id="profileP" class="profileOutput">{{userEmail}}</p>
+</div>
+            
+<button class="itemBtn listFromProfile" id="profileList" type="submit">List Item</button>
+
+<div id="userProdList">
+{{#each product}}
+		<div class="outer">
+			<div class="itemContent">
+                <img class="itemListImg" id="img_{{this.id}}" src="{{this.image_link}}" alt="{{this.name}}">
+				<h1 class="itemH1" id="name_{{this.id}}" >{{this.name}}</h1>
+                
+				<p class="itemBoxP" id="desc_{{this.id}}">{{this.description}}</p>
+
+                <span class="creditGreen"></span><h5 class="itemH5" id="price_{{this.id}}">{{this.price}}</h5>
+				
+				<button type="button" data-value="{{this.id}}" class="itemBtn userItemBtn updateBtn">Update</button>
+				<button type="button" data-value="{{this.id}}" class="itemBtn userItemBtn deleteBtn">Delete</button>
+				
+			</div>
+		</div>
+{{/each}}
+</div>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div id = "container">
+            <form id = "form">
+            <h2 class="title">Create your new Listing</h2>
+            <label for="name" class ="name listLabel">Item Name:</label>
+            <input type="text" id="name" name="name" class="listInput" placeholder="Item Name" >
+            <label for="price" class="price listLabel">Item Price:</label>
+            <input type="text" id="price" name="price" class="listInput" placeholder="Sell Price">
+            <label for="description" class ="description listLabel">Description:</label>
+            <input type="text" id="description" name="description" class="listInput" placeholder="Description">
+            <label for="image_link" class ="image_link listLabel">Image URL:</label>
+            <input type="text" id="image_link" name="image_link" class="listInput" placeholder="Image URL">
+            </form>
+        </div>
+        <br/><br/>
+        <button id="confirm" class="itemBtn">Confirm</button><button id="canx" class="itemBtn">Cancel</button>
+    </div>
+
+</div>
+<!-- ....................... -->
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div id = "container2">
+            <form id = "form2">
+            <h2 class="title">Update Listing</h2>
+            <label for="name" class ="name listLabel">Item Name:</label>
+            <input type="text" id="name2" name="name" class="listInput" placeholder="Item Name" >
+            <label for="price" class="price listLabel">Item Price:</label>
+            <input type="text" id="price2" name="price" class="listInput" placeholder="Sell Price">
+            <label for="description" class ="description listLabel">Description:</label>
+            <input type="text" id="description2" name="description" class="listInput" placeholder="Description">
+            <label for="image_link" class ="image_link listLabel">Image URL:</label>
+            <input type="text" id="image_link2" name="image_link" class="listInput" placeholder="Image URL">
+            </form>
+        </div>
+        <br/><br/>
+        <button id="confirm2"  class="itemBtn">Update</button><button id="canx2" class="itemBtn">Cancel</button>
+    </div>
+</div>
+<!-- ....................... -->
+
+
+
+<script src="/js/modal.js"></script>
+<script src ="/js/profile.js"></script>
+<script src="/js/imgExt.js"></script>

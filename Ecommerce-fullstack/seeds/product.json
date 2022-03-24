@@ -1,0 +1,142 @@
+[
+    {
+      "name": "E-Web Heavy Repeating Blaster",
+      "image_link": "https://static.wikia.nocookie.net/starwars/images/6/69/EWeb-VI_Ben_Nadler.png",
+      "price": 800,
+      "description": "The E-Web or Emplacement Weapon is heavy repeating blaster manufactured by BlasTech Industries. It was one of the most powerful repeating blasters in the Imperial arsenal",
+      "user_id": 8
+    },
+    {
+      "name": "Flechette Launcher",
+      "image_link": "https://static.wikia.nocookie.net/starwars/images/1/15/FC1-MV.png",
+      "price": 125,
+      "description": "Golan Arms FC-1 flechette launcher in excellent condition. Extra flechettes included",
+      "user_id": 8
+    },
+    {
+      "name": "Fusion Cutter",
+      "image_link": "https://static.wikia.nocookie.net/starwars/images/1/1f/Fusioncutter_negwt.jpg" ,
+      "price": 50,
+      "description": "SoroSuub F-187 fusion cutter, with an adjustable cutting beam, allowing the user fine, precise work." ,
+      "user_id": 13
+    },
+    {
+      "name": "StormTrooper Helmet", 
+      "image_link": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/134896-tv-news-feature-10-incredible-star-wars-props-you-could-own-including-a-stormtrooper-helmet-worth-60k-image1-Q7cqvnL5xU.jpg",
+      "price": 500,
+      "description": "Torn from the head of a fallen elite Stormtrooper, this helmet is in perfect condition.",
+      "user_id": 12
+    },
+    {
+      "name": "Hunter Droid",
+      "image_link": "https://static.turbosquid.com/Preview/2020/04/01__12_23_29/02.jpg00FDD212-0C4F-4C07-822B-497CF8BC6CD8Large.jpg",
+      "price": 12000,
+      "description": "A one-of-a-kind Imperial hunter droid, your very own assasin droid, for a price",
+      "user_id": 7
+    },
+    {
+      "name": "Interrogation Droid",
+      "image_link":"https://live.staticflickr.com/5481/12710892094_848abe9884_b.jpg",
+      "price": 2000.0,
+      "description": "This Interrogator Droids does not only coax sensitive information out of an individual by inflicting extreme pain, but uses mind probes to torture their victims.",
+      "user_id": 4
+    },
+    {
+      "name": "Light Saber",
+      "image_link":"https://ultrasabers.com/wp-content/uploads/2019/09/The-Fallen-Combat-Ready-Emitter-Ignited.jpg",
+      "price": 55000,
+      "description": "An elegant weapon for a more civilized age, inherited by a true Jedi Master." ,
+      "user_id": 1
+    },
+    {
+      "name": "Millenium Falcon",
+      "image_link":"https://www.renderhub.com/squir/star-wars-millennium-falcon/star-wars-millennium-falcon-01.jpg",
+      "price": 120000,
+      "description":"Despite the worn-out and shabby exterior, The Falcon is one of the fastest vessels in the universe",
+      "user_id": 13
+    },
+    {
+      "name": "Jedi Boots",
+      "image_link":"https://www.jedirobeamerica.com/images/page/Image/Home%20Page/JRA%20HOME/mini-banner-boots.jpg",
+      "price": 80,
+      "description":"Tall, sturdy and supple, with good grip, these boots are a must have for any self-respecting Jedi. Obi Wan approved.",
+      "user_id": 14
+    },
+    {
+      "name": "Travel bed",
+      "image_link":"https://imgix.bustle.com/uploads/image/2020/10/29/3956d3f7-7b73-47e2-aac6-fb603028df5f-huck2_tsr_v11_quested_stills_3_4b6ee058.jpeg",
+      "price": 200,
+      "description":"A floating pod, ideal for carrying shopping, or a child.",
+      "user_id": 11
+    },
+    {
+      "name": "Blaster",
+      "image_link":"https://royalarmouries.org/wp-content/uploads/2018/06/Di-2018-0334.png",
+      "price": 40,
+      "description":"Simple and effective.",
+      "user_id": 8
+    },
+    {
+      "name": "Death Sticks",
+      "image_link":"http://pm1.narvii.com/6281/9e43d6a8d760dd94dffe8d51c7ad02d1d9871421_00.jpg",
+      "price": 80,
+      "description":"Why go home and think about your life when you can have these?",
+      "user_id": 8
+    },
+    {
+      "name": "Wookie Pelt",
+      "image_link":"https://wegotthiscovered.com/wp-content/uploads/2021/12/dokk-strassi-e1640800303399.png",
+      "price": 750,
+      "description":"A freshly skinned wookie pelt. It'll look good on the floor or the wall.",
+      "user_id": 9
+    },
+    {
+      "name": "Chiss Artifact",
+      "image_link":"https://static.wikia.nocookie.net/starwars-exodus/images/a/a1/ChissSD.jpg",
+      "price": 3000,
+      "description":"When you understand a species' art, you understand the species.",
+      "user_id": 5
+    },
+    {
+      "name": "Beskar Ingot",
+      "image_link":"https://lumiere-a.akamaihd.net/v1/images/beskar-main_a95f957f.jpeg",
+      "price": 1000,
+      "description":"Looks good, and can be melted down into exceptional armour.",
+      "user_id": 10
+    },
+    {
+      "name": "Speeder Bike",
+      "image_link":"https://static.wikia.nocookie.net/starwars/images/4/47/Speeder_Bike_DICE.png",
+      "price": 300,
+      "description":"Extremely fast speeder bike, Empire issued.",
+      "user_id": 8
+    },
+    {
+      "name": "Speeder",
+      "image_link":"https://squir.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/5/2/52108.jpg",
+      "price": 80,
+      "description":"Old, damaged, rusted. Still works like a charm though.",
+      "user_id": 13
+    },
+    {
+      "name": "Y-Wing Starfighter",
+      "image_link":"https://i0.wp.com/overmental.com/wp-content/uploads/2015/09/Y-Wing.jpg",
+      "price": 3500,
+      "description":"All round durable fighter.",
+      "user_id": 12
+    },
+    {
+      "name": "Rations packs",
+      "image_link":"https://i.pinimg.com/originals/ce/5a/04/ce5a045e50313541f9d43ad610516f0b.jpg",
+      "price": 5,
+      "description":"Basic rations pack, plenty available.",
+      "user_id": 8
+    },
+    {
+      "name": "Sith Wayfinder",
+      "image_link":"https://i.etsystatic.com/14597684/r/il/304ca1/2772949716/il_fullxfull.2772949716_oq9w.jpg",
+      "price": 200000,
+      "description":"This will take you to dark places....",
+      "user_id": 5
+    }
+  ]

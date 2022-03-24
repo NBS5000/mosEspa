@@ -1,0 +1,57 @@
+/*
+Media CSS file
+*/
+@media screen and (max-width:1250px) and (min-width:1060px) {
+    #news{
+        width:75%;
+        margin:40px 0;
+    }
+
+}
+@media screen and (max-width:1060px) and (min-width:650px) {
+    #news{
+        width:80%;
+        margin:40px 0;
+    }
+}
+@media screen and (max-width:650px) {
+    #news{
+        width:100%;
+        margin:40px 0;
+    }
+    header{
+        height: 100px;
+        justify-content: space-between;
+    }
+    header h1{
+        width: 60%;
+    }
+    #buySellBtn .itemBtn{
+        width: 100%;
+    }
+    .modal-content{
+        width: 80%;
+    }
+    #profileList{
+        width: 100%;
+    }
+    #profileDetails{
+        margin: 0;
+        margin-top: 5%;
+    }
+    nav{
+        width: 100px;
+        text-align: right;
+    }
+    .navA{
+        height: 50%;
+        width: 80px;
+        text-align: right;
+    }
+    .outer{
+        margin-bottom: 15px;
+    }
+    .logSignSwitch{
+        width: 180px;
+    }
+}

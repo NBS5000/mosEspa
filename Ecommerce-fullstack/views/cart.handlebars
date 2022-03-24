@@ -1,0 +1,63 @@
+
+<div id="fancyCart">
+  <section class="star-wars">
+    <div class="crawl">
+      <div class="title">
+        <p>MOS ESPA MARKETPLACE</p>
+        <h1>YOUR CART</h1>
+      </div>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+
+{{#each cartItems as |item|}}
+
+        <tr>
+          <td class="cartTdName">{{item.product_name}}</td>
+          <td class="cartTdPrice">{{item.product_price}}</td>
+        </tr>
+
+
+{{/each}}
+
+        <tr class="lastRow">
+          <td class="cartTdName cartTotal">Total</td>
+          <td class="cartTdPrice">{{cost}}</td>
+        </tr>
+      </table>
+
+        
+      </div>
+  </section>
+</div>
+
+<div id="plainCart">
+      <div class="plainTitle">
+        <p id="plainP">MOS ESPA MARKETPLACE</p>
+        <h1 id="plainH1">YOUR CART</h1>
+      </div>
+
+<table id="plainT">
+        <tr>
+          <th class="plainTh">Item</th>
+          <th class="plainTh">Price</th>
+        </tr>
+
+{{#each cartItems as |item|}}
+
+        <tr>
+          <td class="plainTd">{{item.product_name}}</td>
+          <td class="plainTh plainNum"><span class="creditGreen"></span>{{item.product_price}}</td>
+        </tr>
+
+
+{{/each}}
+
+        <tr class="lastRowP">
+          <td class="cartTotalP">Total</td>
+          <td class="cartTdPrice plainNum"><span class="creditGreen"></span>{{cost}}</td>
+        </tr>
+      </table>
+</div>

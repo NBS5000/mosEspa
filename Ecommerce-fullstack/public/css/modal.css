@@ -1,0 +1,98 @@
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 25px;
+    min-width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+label{
+    display: block;
+    color: black;
+    font-size: larger;
+}
+.modalBtnC{
+    position: relative;
+    top: 50px;
+    height: 100px;
+    width: 60%;
+    min-width: 160px;
+    font-size: 200%;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 8px;
+}
+#listH3{
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+#container, #container2, #container3, #container4{
+    width: 100%;
+}
+#viewImage{
+    height:200px;
+    position: relative;
+}
+.addCanx{
+    margin-bottom: 10px !important;
+}
+#container3{
+    text-align: center;
+}
+
+#image_link3{
+    margin: 0 auto;
+    height: 100%;
+}
+#price3, #name3, #description3, #sellerP{
+    color: var(--primaryColor);
+    position: relative;
+    white-space: initial;
+}
+#name3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#viewTitle{
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+#description3, #price3, #sellerP{
+    margin: 10px;
+}

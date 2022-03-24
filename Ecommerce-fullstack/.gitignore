@@ -1,0 +1,5 @@
+node_modules
+.env
+localHTML/
+.DS_Store
+steveNotes.txt

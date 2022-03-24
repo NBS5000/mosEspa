@@ -1,0 +1,142 @@
+#fancyCart {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+
+    animation:fromFancy 1s 1;
+    -webkit-animation:fromFancy 1s 1;
+    animation-fill-mode: forwards;
+
+    animation-delay:5s;
+    -webkit-animation-delay:5s; /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
+}
+
+.star-wars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+  color: var(--thirdColor);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 400%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  perspective: 400px;
+  text-align: justify;
+}
+
+.crawl {
+  position: relative;
+  top: 100%;
+  transform-origin: 50% 100%;
+  animation: crawl 45s linear;
+}
+
+.crawl > .title {
+  font-size: 90%;
+  text-align: center;
+}
+
+.crawl > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+}
+
+#plainCart{
+  margin-top:50px;
+  text-align: center;
+  width: 80%;
+  height: 80%;
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 10px;
+
+  animation:toPlain 1s 1;
+  -webkit-animation:toPlain 1s 1;
+  animation-fill-mode: forwards;
+
+  animation-delay:5s;
+  -webkit-animation-delay:5s; /* Safari and Chrome */
+  -webkit-animation-fill-mode: forwards;
+}
+table{
+  border-collapse: collapse;
+}
+#plainP{
+  margin-top:20px;
+  margin-bottom: 20px;
+  color: var(--primaryColor);
+  font-size: 200%;
+}
+#plainH1{
+  color: var(--primaryColor);
+  font-size: 400%;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.fancyP{
+  font-size: 70%;
+  color: var(--secondColor)
+}
+#cartTable{
+  width: 100%;
+}
+.cartTr{
+  width: 100%;
+}
+#plainT{
+  width: 80%;
+  margin: 0 auto;
+}
+.plainTd{
+  font-size: 200%;
+  text-align: left;
+  padding: 10px 0;
+}
+.plainTh{
+  color: var(--thirdColor);
+  text-align: left;
+  font-size: 200%;
+  font-weight: bold;
+}
+.plainNum{
+  color: var(--primaryColor);
+  font-size: 150%;
+  text-align: left;
+  font-weight: bold;
+}
+.cartTotalP{
+  color: var(--primaryColor);
+  text-align: left;
+  font-size: 200%;
+  font-weight: bold;
+
+}
+.cartTdName{
+  font-size: 70%;
+  color: var(--secondColor);
+  width: 100%;
+  line-height:100%;
+  white-space: initial;
+  text-align: left;
+}
+.cartTotal{
+  color: var(--primaryColor);
+  font-size: 100%;
+}
+.lastRowP{
+  border-top: 3px solid var(--primaryColor);
+}

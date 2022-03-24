@@ -1,0 +1,44 @@
+
+@keyframes glowBox{
+    0% {border: 2px solid darkred;}
+    60% {border: 2px solid darkblue;}
+    100% {border: 2px solid darkred;}
+}
+
+@keyframes bwFont{
+    0% {color:black;text-shadow: 0 0 1px white;}
+    25% {color:white;text-shadow: 0 0 1px black;}
+    50% {color:black;text-shadow: 0 0 1px white;}
+    100% {color:white;text-shadow: 0 0 1px black;}
+}
+@keyframes rwbFont{
+    0% {color:red;}
+    15% {color:white;}
+    50% {color:blue;}
+    100% {color:red;}
+}
+
+@keyframes crawl {
+    0% {
+    top: -100px;
+    transform: rotateX(20deg)  translateZ(0);
+}
+    99% { 
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+}
+    100% { 
+    top: 0;
+    transform: rotateX(0) translateZ(0);
+}
+}
+
+@keyframes fromFancy{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+@keyframes toPlain{
+    from {opacity :0;}
+    to {opacity :1;}
+}
